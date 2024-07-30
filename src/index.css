@@ -1,45 +1,66 @@
-*{
+* {
   padding: 0;
 }
 
 .imagemFundo {
-  position: fixed; 
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; 
-  height: 100vh; 
-  object-fit: cover; 
-  z-index: -1; 
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
 }
 
 
 .divLogo {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding-top: 90px;
-  
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
 }
 
-.imagemlogo{
+.imagemlogo {
   height: auto;
-  width: 100%;
- }
+  width: 50rch;
+}
 
 .btnPedir {
-  position: absolute; /* Para posicionamento absoluto dentro de um contêiner */
   font-size: 20px;
-  top: 60%; /* Centraliza verticalmente */
-  left: 50%; /* Centraliza horizontalmente */
-  transform: translate(-50%, -50%); /* Ajusta a posição para que o centro do botão esteja no centro da tela */
-  padding: 10px 20px; /* Ajuste o padding conforme necessário */
-  background-color: #31ce44; /* Cor de fundo do botão */
-  color: white; /* Cor do texto do botão */
-  border: none; /* Remove a borda */
-  border-radius: 7px; /* Adiciona bordas arredondadas */
-  cursor: pointer; /* Muda o cursor para indicar que o elemento é clicável */
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #31ce44;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
 }
 
 .btnPedir:hover {
-  background-color: #208031; 
+  background-color: #208031;
 }
 
+.redeSocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.redeSocial li {
+  margin: 0 1rem;
+}
+
+.redeSocial svg {
+  font-size: 40px;
+  cursor: pointer;
+  color: azure;
+}
+
+.redeSocial li:hover {
+  background-color: #3f3535;
+  transition: 0.3s;
+  border-radius: 7px;
+}
