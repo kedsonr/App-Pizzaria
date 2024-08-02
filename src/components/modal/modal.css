@@ -13,7 +13,7 @@
   
   .modalContent {
     background: white;
-    width: 60%;
+    width: 70%;
     height: 90%;
     padding: 20px;
     border-radius: 8px;
@@ -22,6 +22,7 @@
   
   .closeModalBtn {
     background-color: #355138;
+    margin-top: 20px;
     padding: 10px 20px;
     cursor: pointer;
     color: white;
@@ -31,4 +32,23 @@
   
   .closeModalBtn:hover {
     background-color: #208031;
+  }
+  .tamanho{
+    display:flex;
+   justify-content:flex-start;
+   align-items: center;
+   gap: 4px;
+   width:45vh;
+  }
+
+  .inputRadio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    right: 3px;
+  }
+  .inputRadio span {
+    font-size: 15px;
+    padding: 3px 3px;
   }
